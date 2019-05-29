@@ -1,5 +1,8 @@
 //this is where the JS goes
-$("#IMG-crownShyness").on('click', function() {
-	console.log("IMG-crownShyness clicked")
-	window.location.href = "https://en.wikipedia.org/wiki/Crown_shyness";
-});
+
+//Crown shyness img overlay and link handling 
+$("#IMG01-overlay").on('click', function() {
+	console.log("IMG01-overlay clicked")
+	window.open("https://en.wikipedia.org/wiki/Crown_shyness",'_blank')
+})
+
